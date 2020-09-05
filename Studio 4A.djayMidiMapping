@@ -24,7 +24,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>musicLibrary.toggleLibrarySource</string>
+			<string>musicLibrary.toggleLibraryVisible</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>musicLibrary.toggleLibraryVisible</string>
+			<string>musicLibrary.toggleLibrarySource</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -2172,6 +2172,8 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
 			<string>turntable4.speed</string>
 			<key>midiChannel</key>
@@ -2412,7 +2414,7 @@
 		</dict>
 	</array>
 	<key>editor</key>
-	<string>djay Pro 2-2.0.14</string>
+	<string>djay Pro 2-2.2.2</string>
 	<key>endpointName</key>
 	<string>Studio 4A</string>
 	<key>outputs</key>
