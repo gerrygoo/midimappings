@@ -24,7 +24,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>musicLibrary.toggleLibraryVisible</string>
+			<string>musicLibrary.nextSection</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -44,7 +44,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>musicLibrary.loadSelection</string>
+			<string>musicLibrary.toggleLibraryVisible</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -420,6 +420,8 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>toggle</string>
 			<key>keyPath</key>
 			<string>turntable1.playPause</string>
 			<key>midiChannel</key>
@@ -452,8 +454,6 @@
 			<key>output</key>
 			<dict>
 				<key>midiMaxValue</key>
-				<real>1</real>
-				<key>midiMinValue</key>
 				<real>1</real>
 			</dict>
 		</dict>
@@ -808,7 +808,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.fx3SelectNext</string>
+			<string>turntable1.loadTrack</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -871,8 +871,6 @@
 			<key>output</key>
 			<dict>
 				<key>midiMaxValue</key>
-				<real>1</real>
-				<key>midiMinValue</key>
 				<real>1</real>
 			</dict>
 		</dict>
@@ -1270,7 +1268,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.fx3SelectNext</string>
+			<string>turntable2.loadTrack</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
@@ -1321,7 +1319,7 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
-				<key>midiMinValue</key>
+				<key>midiMaxValue</key>
 				<real>1</real>
 			</dict>
 		</dict>
@@ -1336,6 +1334,8 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
+				<key>flipped</key>
+				<true/>
 				<key>midiMaxValue</key>
 				<real>2</real>
 				<key>midiMinValue</key>
@@ -1354,8 +1354,6 @@
 			<key>output</key>
 			<dict>
 				<key>midiMaxValue</key>
-				<real>1</real>
-				<key>midiMinValue</key>
 				<real>1</real>
 			</dict>
 		</dict>
@@ -1811,7 +1809,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.fx3SelectNext</string>
+			<string>turntable3.loadTrack</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1821,7 +1819,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.fx3SelectNext</string>
+			<string>turntable4.loadTrack</string>
 			<key>midiChannel</key>
 			<integer>3</integer>
 			<key>midiData</key>
@@ -2009,8 +2007,6 @@
 			<key>output</key>
 			<dict>
 				<key>midiMaxValue</key>
-				<real>1</real>
-				<key>midiMinValue</key>
 				<real>1</real>
 			</dict>
 		</dict>
